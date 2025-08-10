@@ -19,5 +19,13 @@ http://127.0.0.1:3000/pig%20latin/index.html
 
 ---
 
+## Screenshot
+
+<img width="1456" height="821" alt="image" src="https://github.com/user-attachments/assets/c6b4f337-2cc2-41d8-97a4-1fdb26e76cf2" />
+
+<img width="1222" height="645" alt="image" src="https://github.com/user-attachments/assets/4cac865d-380b-4238-98f9-0cd01ff07d82" />
+
+---
+
 ##  Demo
 https://drive.google.com/file/d/13fXr12r4IWfW5xGFxsuf_5FWgLWihwqb/view?usp=sharing
