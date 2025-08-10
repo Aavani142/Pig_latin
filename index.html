@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pig Latin Converter</title>
+  <link rel="stylesheet" href="piglatin.css" />
+</head>
+<body>
+  <main class="container" role="main">
+    <div class="card">
+      <header class="card-head">
+        <h1>Pig Latin Converter</h1>
+        <p class="subtitle">Type a word or sentence — it preserves punctuation and capitalization.</p>
+      </header>
+
+      <label class="label" for="inputText">Input</label>
+      <textarea id="inputText" rows="4" placeholder="Try: banana  •  Hello, world!  •  mother-in-law"></textarea>
+
+      <div class="controls">
+        <button id="convertBtn" class="btn primary">Convert</button>
+        <button id="copyBtn" class="btn ghost">Copy Result</button>
+        <button id="clearBtn" class="btn ghost">Clear</button>
+      </div>
+
+      <label class="label" for="output">Result</label>
+      <div id="output" class="output" aria-live="polite"></div>
+
+      <p class="hint">Rules used: vowel-start → append <code>-yay</code>. Consonant-start → move leading consonant cluster, add <code>-ay</code> (e.g. <em>banana → anana-bay</em>).</p>
+    </div>
+
+    
+  </main>
+
+  <script src="piglatin.js"></script>
+</body>
+</html>
